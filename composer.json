@@ -21,7 +21,8 @@
     },
     "require": {
         "ifcastle/exceptions": "^5.0",
-        "ifcastle/type-definitions": "^0.5.4"
+        "ifcastle/type-definitions": "^0.5.4",
+        "psr/event-dispatcher": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.2",
