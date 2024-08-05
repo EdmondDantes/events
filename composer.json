@@ -1,0 +1,34 @@
+{
+    "name": "ifcastle/events",
+    "description": "Implementation of the Events + EventDispatcher pattern.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "events",
+        "event-dispatcher",
+        "event-listener",
+        "event-subscriber"
+    ],
+    "autoload": {
+        "psr-4": {
+            "IfCastle\\Events\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IfCastle\\Events\\": "./tests"
+        }
+    },
+    "require": {
+        "ifcastle/exceptions": "^5.0",
+        "ifcastle/type-definitions": "^0.5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2",
+        "amphp/php-cs-fixer-config": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.60"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit ./tests"
+    }
+}
